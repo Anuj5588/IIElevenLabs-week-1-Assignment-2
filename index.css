@@ -23,7 +23,7 @@ body {
   min-width: 50vw;
   box-sizing: border-box;
   height: 100vh;
-  overflow: hidden;
+ 
 }
 
 #left-section {
@@ -33,6 +33,7 @@ body {
 /* RIGHT SECTION */
 
 #right-section {
+ 
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -174,4 +175,13 @@ input {
     padding-right: 20pxxxxxxxxx;
     align-items: center;
     gap: 20px;
+}
+
+.wave{
+ display: flex;
+height: 32vh;
+margin-top:25px ;
+ align-items: end;
+
+
 }
